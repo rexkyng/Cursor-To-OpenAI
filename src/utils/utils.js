@@ -104,7 +104,7 @@ function chunkToUtf8String(chunk) {
       const magicNumber = parseInt(buffer.subarray(i, i + 1).toString('hex'), 16)
       const dataLength = parseInt(buffer.subarray(i + 1, i + 5).toString('hex'), 16)
       const data = buffer.subarray(i + 5, i + 5 + dataLength)
-      console.log("Parsed buffer:", magicNumber, dataLength, data.toString('hex'))
+      //console.log("Parsed buffer:", magicNumber, dataLength, data.toString('hex'))
 
       if (magicNumber == 0 || magicNumber == 1) {
         const gunzipData = magicNumber == 0 ? data : zlib.gunzipSync(data)

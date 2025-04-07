@@ -34,7 +34,7 @@ user_01JJF<.....>K3F4T8%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6Ikp<...................
 
 #### API to get Cursor client cookie
 
-We provide an API to save you from manual login. You need to log in to your Cursor account in browser and get `WorkosCursorSessionToken` from Application-Cookie📄
+We provide an API to save you from manual login. You need to log in to your Cursor account in browser and get `WorkosCursorSessionToken` from Application-Cookie.
 1. Get Cursor client cookie
     - Url：`http://localhost:3010/cursor/loginDeepContorl`
     - Request：`GET`

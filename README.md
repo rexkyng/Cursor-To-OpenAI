@@ -50,7 +50,7 @@ response = requests.get("http://localhost:3010/cursor/loginDeepControl", headers
     "authorization": f"Bearer {WorkosCursorSessionToken}"
 })
 data = response.json()
-cookie = data["access_token"]
+cookie = data["accessToken"]
 print(cookie)
 ```
 
